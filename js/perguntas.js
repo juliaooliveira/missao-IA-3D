@@ -6,14 +6,14 @@ const perguntas = [
                 texto: "Baleia",
                 afirmacao: [
                     "Se essa foi a opçâo escolhida, está correto.",
-                    "afirmacao 2"
+                    "Felizmente essa é a resposta certa"
                     ]
             },
             {
                 texto: "Cavalo marinho",
                 afirmacao: [
                     "Se essa foi a opçâo escolhida, está incorreta.",
-                    "afirmacao 2"
+                    "Infelizmente essa não é a resposta correta"
                     ]
             }           
             
