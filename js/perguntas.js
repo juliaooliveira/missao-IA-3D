@@ -6,14 +6,14 @@ const perguntas = [
                 texto: "Baleia",
                 afirmacao: [
                     "Se essa foi a opçâo escolhida, está correto.",
-                    "Felizmente essa é a resposta certa"
+                    "Felizmente essa é a resposta certa."
                     ]
             },
             {
                 texto: "Cavalo marinho",
                 afirmacao: [
                     "Se essa foi a opçâo escolhida, está incorreta.",
-                    "Infelizmente essa não é a resposta correta"
+                    "Infelizmente essa não é a resposta correta."
                     ]
             }           
             
@@ -25,15 +25,15 @@ const perguntas = [
             {
                 texto:"Morcego",
                 afirmacao: [
-                    "afirmacao 1",
-                    "afirmacao 2"
+                    "Isso! Essa resposta está correta.",
+                    "Você acertou!"
                     ]
             },
             {
                 texto: "Alternativa 2 da pergunta 2",
                 afirmacao: [
-                    "afirmacao 1",
-                    "afirmacao 2"
+                    "Infelizmente você escolheu a resposta errada desta vez.",
+                    "Essa não é a resposta certa."
                     ]
             }
         ]
