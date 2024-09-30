@@ -5,17 +5,19 @@ const perguntas = [
             {
                 texto: "Baleia",
                 afirmacao: [
-                    "Se essa foi a opçâo escolhida, está correto.",
+                    "Se você escolheu essa opçâo, está correto.",
                     "Felizmente essa é a resposta certa."
-                    ]
+                    ],
+                proxima: 1,
             },
             {
                 texto: "Cavalo marinho",
                 afirmacao: [
                     "Se essa foi a opçâo escolhida, está incorreta.",
-                    "Infelizmente essa não é a resposta correta."
-                    ]
-            }           
+                    "Infelizmente você não escolheu a resposta correta."
+                    ],
+                proxima: 1,
+            },
             
         ]
     },
@@ -27,14 +29,16 @@ const perguntas = [
                 afirmacao: [
                     "Isso! Essa resposta está correta.",
                     "Você acertou!"
-                    ]
+                    ],
+                proxima: 2,
             },
             {
-                texto: "Alternativa 2 da pergunta 2",
+                texto: "Avestruz",
                 afirmacao: [
                     "Infelizmente você escolheu a resposta errada desta vez.",
                     "Essa não é a resposta certa."
-                    ]
+                    ],
+                proxima: 2,
             }
         ]
     },
@@ -42,19 +46,21 @@ const perguntas = [
         enunciado: "Qual é o mamífero que bota ovo?",
         alternativas: [
             {
-                texto:"Alternativa 1 da pergunta 3",
+                texto: "Ornitorrinco",
                 afirmacao: [
-                    "afirmacao 1",
-                    "afirmacao 2"
-                    ]
+                    "Você acertou.",
+                    "Está é a alternativa certa."
+                    ],
+                proxima: 3,
             },
             {
-                texto:"Alternativa 2 da pergunta 3",
+                texto: "Canguru",
                 afirmacao: [
-                    "afirmacao 1",
-                    "afirmacao 2"
-                    ]
-            }
+                    "Infelizmente essa não é a alternativa correta.",
+                    "Infelizmente dessa vez você não escolheu a alternativa correta "
+                    ],
+                    proxima: 3,
+            },
             
         ]
     },
