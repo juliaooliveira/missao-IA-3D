@@ -64,4 +64,49 @@ const perguntas = [
             
         ]
     },
+    {
+        enunciado: "O sapo usa sua língua para capturar suas presas?",
+        alternativas: [
+            {
+                texto: "Sim",
+                afirmacao: [
+                    "Se você escolheu essa opçâo, está correto.",
+                    "Felizmente essa é a resposta certa."
+                    ],
+                proxima: 4,
+            },
+            {
+                texto: "Não",
+                afirmacao: [
+                    "Se essa foi a opçâo escolhida, está incorreta.",
+                    "Infelizmente você não escolheu a resposta correta."
+                    ],
+                proxima: 4,
+            },
+            
+        ]
+    },
+    {
+        enunciado: "Qual é o animal mais rápido, guepardo ou lince?",
+        alternativas: [
+            {
+                texto: "Guepardo",
+                afirmacao: [
+                    "Se você escolheu essa opçâo, está correto.",
+                    "Felizmente essa é a resposta certa."
+                    ],
+                proxima: 5,
+            },
+            {
+                texto: "Lince",
+                afirmacao: [
+                    "Se essa foi a opçâo escolhida, está incorreta.",
+                    "Infelizmente você não escolheu a resposta correta."
+                    ],
+                proxima: 5,
+            },
+            
+        ]
+    },
+    
 ];
