@@ -1,4 +1,4 @@
-const perguntas = [
+export const perguntas = [
     {
         enunciado: "Qual dos animais marinhos é um mamífero?",
         alternativas: [
